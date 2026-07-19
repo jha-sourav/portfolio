@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourav Jha — Backend Developer</title>
+  <meta name="description" content="Backend Developer specializing in PHP, Laravel, WordPress, CodeIgniter & React." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Custom cursor -->
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- Scroll progress bar -->
+  <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+  <!-- Animated background glow -->
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="top">
+    <a href="#top" class="logo" data-cursor>&lt;Sourav<span>/</span>&gt;</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-cursor>About</a>
+      <a href="#stack" data-cursor>Stack</a>
+      <a href="#work" data-cursor>Work</a>
+      <a href="#services" data-cursor>Services</a>
+      <a href="#contact" data-cursor>Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-sm magnetic" data-cursor>Hire Me</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="dot-pulse"></span> Available for freelance &amp; full-time</p>
+      <h1>
+        Hi, I'm Sourav Jha — I build<br />
+        <span class="accent typewriter" id="typewriter"></span>
+      </h1>
+      <p class="lead">
+        A backend-focused developer crafting robust, scalable web applications with
+        <strong>PHP, Laravel, WordPress &amp; CodeIgniter</strong> — and bringing them to
+        life on the front with <strong>React &amp; JavaScript</strong>.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn magnetic" data-cursor>View My Work</a>
+        <a href="#contact" class="btn btn-ghost magnetic" data-cursor>Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong data-count="6">0</strong><span>Years Experience</span></div>
+        <div><strong data-count="90">0</strong><span>APIs &amp; Apps Built</span></div>
+        <div><strong data-count="45">0</strong><span>Happy Clients</span></div>
+      </div>
+    </div>
+
+    <!-- Floating code card -->
+    <div class="code-card" data-cursor>
+      <div class="code-head">
+        <span class="d red"></span><span class="d yellow"></span><span class="d green"></span>
+        <em>Developer.php</em>
+      </div>
+      <pre><code><span class="c-key">class</span> <span class="c-cls">Developer</span> {
+  <span class="c-key">public</span> <span class="c-fn">$name</span> = <span class="c-str">'Sourav Jha'</span>;
+  <span class="c-key">public</span> <span class="c-fn">$role</span> = <span class="c-str">'Backend Dev'</span>;
+
+  <span class="c-key">public function</span> <span class="c-fn">stack</span>() {
+    <span class="c-key">return</span> [
+      <span class="c-str">'PHP'</span>, <span class="c-str">'Laravel'</span>,
+      <span class="c-str">'WordPress'</span>, <span class="c-str">'CI'</span>,
+      <span class="c-str">'React'</span>, <span class="c-str">'JS'</span>,
+    ];
+  }
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- Tech marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>PHP</span><span>•</span><span>Laravel</span><span>•</span><span>WordPress</span><span>•</span>
+      <span>CodeIgniter</span><span>•</span><span>React JS</span><span>•</span><span>JavaScript</span><span>•</span>
+      <span>MySQL</span><span>•</span><span>REST APIs</span><span>•</span><span>Node</span><span>•</span>
+      <span>PHP</span><span>•</span><span>Laravel</span><span>•</span><span>WordPress</span><span>•</span>
+      <span>CodeIgniter</span><span>•</span><span>React JS</span><span>•</span><span>JavaScript</span><span>•</span>
+      <span>MySQL</span><span>•</span><span>REST APIs</span><span>•</span><span>Node</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="tag">01 — About</span>
+      <h2>Backend logic that <span class="accent">just works</span>.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <p>
+          I'm a backend developer with 6+ years building the engine rooms of web
+          applications — clean APIs, well-structured databases, and maintainable
+          server-side code. My home turf is <strong>Core PHP</strong> and
+          <strong>Laravel</strong>, and I've shipped plenty with
+          <strong>WordPress</strong> and <strong>CodeIgniter</strong> too.
+        </p>
+        <p>
+          I also speak the front-end's language — <strong>React</strong> and
+          modern <strong>JavaScript</strong> — so I can take a product from
+          database schema all the way to the browser.
+        </p>
+      </div>
+      <div class="skills">
+        <h3>What I focus on</h3>
+        <ul>
+          <li>Scalable REST API design</li>
+          <li>Database architecture &amp; optimization</li>
+          <li>Clean, testable OOP &amp; MVC code</li>
+          <li>Third-party integrations</li>
+          <li>Performance &amp; security</li>
+          <li>CMS &amp; custom plugin development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section class="section" id="stack">
+    <div class="section-head">
+      <span class="tag">02 — Tech Stack</span>
+      <h2>My daily <span class="accent">toolbox</span>.</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-card tilt" data-cursor>
+        <div class="stack-top"><span class="stack-icon">🐘</span><span class="lvl">Expert</span></div>
+        <h3>Core PHP</h3>
+        <div class="bar"><i style="--w:95%"></i></div>
+      </div>
+      <div class="stack-card tilt" data-cursor>
+        <div class="stack-top"><span class="stack-icon">🎯</span><span class="lvl">Expert</span></div>
+        <h3>Laravel</h3>
+        <div class="bar"><i style="--w:92%"></i></div>
+      </div>
+      <div class="stack-card tilt" data-cursor>
+        <div class="stack-top"><span class="stack-icon">📝</span><span class="lvl">Advanced</span></div>
+        <h3>WordPress</h3>
+        <div class="bar"><i style="--w:88%"></i></div>
+      </div>
+      <div class="stack-card tilt" data-cursor>
+        <div class="stack-top"><span class="stack-icon">🔥</span><span class="lvl">Advanced</span></div>
+        <h3>CodeIgniter</h3>
+        <div class="bar"><i style="--w:85%"></i></div>
+      </div>
+      <div class="stack-card tilt" data-cursor>
+        <div class="stack-top"><span class="stack-icon">⚛️</span><span class="lvl">Proficient</span></div>
+        <h3>React JS</h3>
+        <div class="bar"><i style="--w:78%"></i></div>
+      </div>
+      <div class="stack-card tilt" data-cursor>
+        <div class="stack-top"><span class="stack-icon">🟨</span><span class="lvl">Proficient</span></div>
+        <h3>JavaScript</h3>
+        <div class="bar"><i style="--w:82%"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="section" id="work">
+    <div class="section-head">
+      <span class="tag">03 — Work</span>
+      <h2>Selected <span class="accent">projects</span>.</h2>
+    </div>
+    <div class="work-grid">
+      <article class="work-card tilt" data-cursor>
+        <div class="work-thumb thumb-1"><span>{ }</span></div>
+        <div class="work-body">
+          <h3>Nova SaaS API</h3>
+          <p>Multi-tenant REST API with role-based auth, billing &amp; webhooks.</p>
+          <div class="chips"><span>Laravel</span><span>MySQL</span><span>REST</span></div>
+        </div>
+      </article>
+      <article class="work-card tilt" data-cursor>
+        <div class="work-thumb thumb-2"><span>WP</span></div>
+        <div class="work-body">
+          <h3>Bloom CMS Platform</h3>
+          <p>Custom WordPress theme &amp; plugins powering a 50k-visit/day store.</p>
+          <div class="chips"><span>WordPress</span><span>PHP</span><span>WooCommerce</span></div>
+        </div>
+      </article>
+      <article class="work-card tilt" data-cursor>
+        <div class="work-thumb thumb-3"><span>&lt;/&gt;</span></div>
+        <div class="work-body">
+          <h3>Pulse Dashboard</h3>
+          <p>React front-end on a CodeIgniter API — real-time analytics &amp; charts.</p>
+          <div class="chips"><span>CodeIgniter</span><span>React</span><span>JS</span></div>
+        </div>
+      </article>
+      <article class="work-card tilt" data-cursor>
+        <div class="work-thumb thumb-4"><span>API</span></div>
+        <div class="work-body">
+          <h3>Atlas Booking Engine</h3>
+          <p>High-throughput reservation system with caching &amp; queue workers.</p>
+          <div class="chips"><span>Laravel</span><span>Redis</span><span>Queues</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="section-head">
+      <span class="tag">04 — Services</span>
+      <h2>What I can <span class="accent">do for you</span>.</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card tilt" data-cursor>
+        <div class="service-icon">⚙️</div>
+        <h3>Backend Development</h3>
+        <p>Robust, secure server-side apps in Core PHP &amp; Laravel that scale.</p>
+      </div>
+      <div class="service-card tilt" data-cursor>
+        <div class="service-icon">🔌</div>
+        <h3>API Development</h3>
+        <p>Clean, well-documented REST APIs and third-party integrations.</p>
+      </div>
+      <div class="service-card tilt" data-cursor>
+        <div class="service-icon">📝</div>
+        <h3>WordPress &amp; CMS</h3>
+        <p>Custom themes, plugins, and CodeIgniter builds tailored to you.</p>
+      </div>
+      <div class="service-card tilt" data-cursor>
+        <div class="service-icon">⚛️</div>
+        <h3>Full-Stack with React</h3>
+        <p>End-to-end features from database schema to a polished React UI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="contact-box">
+      <span class="tag">05 — Contact</span>
+      <h2>Let's build your <span class="accent">backend</span> together.</h2>
+      <p>Got an API to design or an app to scale? My inbox is always open.</p>
+      <a href="mailto:souravjha.developer@gmail.com" class="btn btn-lg magnetic" data-cursor>souravjha.developer@gmail.com</a>
+      <div class="socials">
+        <a href="http://github.com/jha-sourav" data-cursor>GitHub</a>
+        <a href="http://www.linkedin.com/in/sourav--jha" data-cursor>LinkedIn</a>
+        <a href="#" data-cursor>Website</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Sourav Jha. Built with PHP-powered passion.</p>
+    <a href="#top" data-cursor>Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
