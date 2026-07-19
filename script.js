@@ -43,7 +43,7 @@
     'scalable APIs.',
     'Laravel apps.',
     'WordPress sites.',
-    'CodeIgniter systems.',
+    'CI frameworks.',
     'React front-ends.',
     'clean backends.',
   ];
